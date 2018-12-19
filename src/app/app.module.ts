@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ConvertisseurPoidsComponent } from './convertisseur-poids/convertisseur-poids.component';
+import { ConvertisseurDistancesComponent } from './convertisseur-distances/convertisseur-distances.component';
+import { ConvertisseurTemperatureComponent } from './convertisseur-temperature/convertisseur-temperature.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ConvertisseurPoidsComponent,
+    ConvertisseurDistancesComponent,
+    ConvertisseurTemperatureComponent
   ],
   imports: [
     BrowserModule,
